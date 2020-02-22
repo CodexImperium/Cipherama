@@ -1,0 +1,315 @@
+
+body{
+    background-image: url("../images/spacewarp.gif");
+}
+.navbar{
+    background: black;
+    opacity: 0.9;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-weight: bolder;
+    padding: 5px;
+}
+.avatar{
+    width:50px;
+    height: 50px;
+    background: transparent;
+    vertical-align: middle;
+}
+
+.modal-background{
+    background: blue;
+}
+
+.logout{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logout:hover{
+    text-decoration: none;
+    background: white;
+    color: black;
+    transition: ease 1s;
+}
+
+.player-login{
+    background: transparent;
+}
+
+
+.player-name{
+    color: white;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.carousel{
+    padding: 5px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.panel-container{
+    margin-top: 10px;
+    padding: 5px;
+    border: solid black;
+    background: linear-gradient(to top, #000047,darkblue,blue,lightblue);
+    opacity: 0.8;
+    border-radius: 10px;
+    min-height: 550px;
+}
+
+.chatbox{
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.chatbox h4{
+    text-align: center;
+    padding: 5px;
+    color: lightblue;
+    background-color: #02003c;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.chatmessages{
+    border-style: solid ;
+    border-color: black;
+    padding: 5px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    min-height: 400px;
+    max-height: 400px;
+    overflow: auto;
+}
+
+.messages{
+    background-color: black;
+    margin: 5px 0;
+    padding: 0 5px;
+    border-radius: 10px;
+    opacity: 0.7;
+    color: white;
+
+}
+
+.margin-out{
+    padding: 0;
+    margin: 0;
+}
+
+.message{
+    padding: 0;
+    margin: 0;
+}
+
+.type-box{
+    border-top-style: solid;
+    border-color: black;
+    padding: 5px;
+    position: fixed;
+}
+
+form{
+    padding: 5px;
+}
+
+form input{
+    padding: 0 10px;
+    position: center;
+}
+
+form button{
+    padding: 0 5px;
+    margin-top:5px;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.player-lobbies h4{
+    text-align: center;
+    padding: 5px;
+    color: lightblue;
+    background-color: #02003c;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.lobby-rooms{
+    padding: 5px;
+    border: solid black;
+    min-height: 230px;
+    max-height: 230px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: auto;
+}
+.lobbies{
+    margin:5px;
+    background: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.lobbies p{
+    padding: 5px;
+    color: white;
+}
+
+.lobbies a:hover{
+    text-decoration: none;
+}
+
+.lobbies:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.lobby-overflow{
+    min-height: 170px;
+    max-height: 170px;
+}
+
+.create-button{
+    margin-top: 5px;
+    position: center;
+}
+
+.active-players h4{
+    text-align: center;
+    padding: 5px;
+    color: lightblue;
+    background-color: #02003c;
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.active-player-box{
+    border: solid black;
+    min-height: 170px;
+    max-height: 170px;
+    margin: 0;
+    overflow: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.player-overflow{
+    padding: 0;
+    margin:0;
+}
+
+.players{
+    padding: 0;
+    margin: 0;
+}
+
+.players p{
+    margin:5px;
+    text-align: center;
+    background: black;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width:50%;
+}
+
+::-webkit-scrollbar{
+    width: 2%;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: darkblue;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #000048;
+    border-radius: 10px;
+}
+
+/*the container must be positioned relative:*/
+.number-of-members {
+    position: relative;
+    font-family: Arial, serif;
+    padding: 10px;
+}
+
+.number-of-members select {
+    display: none; /*hide original SELECT element:*/
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}

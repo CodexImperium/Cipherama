@@ -1,0 +1,119 @@
+body
+{
+	background-image: url('../images/spacewarp.gif');
+}
+
+#navBar
+{
+	margin-bottom: 0;
+	background-color: #000000;
+	font-family: 'Cute Font', cursive;
+	border-bottom-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	font-size: 25px !important;
+	letter-spacing: 3px;
+}
+
+.navbar li a, .navbar .navbar-brand 
+{
+  	color: #ffffff !important;
+}
+
+.navbar-nav li a:hover 
+{
+  	color: #A5A7AC !important;
+}
+
+#SignUpBox
+{
+	margin-top: 8%;
+	margin-left: 20.5%;
+	width: 800px;
+	height: 496px;
+	text-align: center;
+	border: groove 8px #ffffff;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+#SignUpTitle
+{
+	margin-top: 17%;
+	margin-bottom: 0;
+	color: #ffffff;
+	font-family: 'Cute Font', cursive;
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+.rightPanel
+{
+	width: 50%;
+	height: 100%;
+	letter-spacing: 1px;
+	float: right;
+}
+
+.leftPanel
+{
+	width: 50%;
+	height: 100%;
+	float: left;
+	border-right: groove 8px #ffffff;
+}
+
+.formInput
+{
+	height: 30px;
+	width: 190px;
+	background-color: transparent;
+	border-style: none;
+	border-bottom: 2px solid #ffffff;
+	margin-top: 5%;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	outline: none;
+	font-family: 'Inconsolata', monospace;
+}
+
+.formSubmit
+{
+	height: 35px;
+	width: 220px;
+	background-color: #000000;
+	border:  4px groove #ffffff;
+	border-radius: 2px;
+	font-size: 16px;
+	font-family: 'Inconsolata', monospace;
+	margin-top: 6%;
+	padding: 10px,15px;
+	color: #ffffff;
+}
+
+.formSubmit:hover
+{
+	background-color: white;
+	color: black;
+	border-color: black;
+	font-weight: bolder;
+}
+
+.formBottom
+{
+	color: #ffffff;
+	font-size: 12px;
+	margin: 2%;
+	font-family: 'Inconsolata', monospace;
+}
+
+#carouselstyle
+{
+	height: 100%;
+	width: 100%;
+}
+
+.logo{
+	width:50%;
+}
